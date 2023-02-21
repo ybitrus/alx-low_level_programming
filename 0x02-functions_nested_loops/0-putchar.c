@@ -2,6 +2,7 @@
 
 /**
  * main - Print _putchar
+ * @c: char variable
  *
  * Return: 0 (success)
  */
