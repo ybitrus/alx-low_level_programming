@@ -2,9 +2,9 @@
 
 /**
  * _isalpha - function that checks for alphabets
- * @c: Tageted character
+ * @c: alphabet to be checks
  *
- * Retun: 1 if c 0 otherwise
+ * Return: return 1 if is c else 0
  */
 
 int _isalpha(int c)
