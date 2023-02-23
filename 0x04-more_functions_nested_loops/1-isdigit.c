@@ -9,13 +9,12 @@
 
 int _isdigit(int c)
 {
-return (c > 40 && c < 50) ? 1 : 0;
-/*	{
+	if (c >= 48 && c <= 57)
+	{
 		return (1);
 	}
 	else
 	{
 		return (0);
 	}
-	*/
 }
