@@ -1,13 +1,12 @@
 #include "main.h"
 
 /**
- * print_line - To draw a straight line
- * @n: Numbers of line
+ * print_diagonal - To print diagonal line
+ * @n: Number of time it world print
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
-
 	int x, y;
 
 	if (n <= 0)
