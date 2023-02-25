@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  *main - To print (1) to (100)
  *
