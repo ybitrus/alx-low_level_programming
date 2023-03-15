@@ -1,16 +1,18 @@
 #include <stdio.h>
-	#include <stdlib.h>
-	#include <ctype.h>
-	#include <string.h>
-	/**
-	 * check_num - To check  string 
-	 * @str: array str
-	 *
-	 * Return: Always 0 (Success)
-	 */
-	int check_num(char *str)
-	{
-		/*Declaring variables*/
+#include <stdlib.h>
+#include <ctype.h>
+#include <string.h>
+
+/**
+ * check_num - To check string
+ * @str: array str
+ *
+ * Return: Always 0 (Success)
+ */
+
+int check_num(char *str)
+{
+	/*Declaring variables*/
 		unsigned int count;
 
 
@@ -28,16 +30,16 @@
 			count++;
 		}
 		return (1);
-	}
+}
 
 
-	/**
-	 * main - To  Print the name of the program
-	 * @argc: Count arguments
-	 * @argv: Arguments
-	 *
-	 * Return: Always 0 (Success)
-	 */
+/**
+ * main - To print name of a programe
+ * @argc: numbers enter in the command prompt or terminal
+ * @argv: It hold command enter in the terminal
+ *
+ * Return: Always (0)
+ */
 
 
 	int main(int argc, char *argv[])
